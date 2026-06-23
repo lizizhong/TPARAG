@@ -278,9 +278,8 @@ def select_local_corpus(filename):
 def random_select_corpus(ner_type, from_file=True, instance_corpus=None):
     corpus_array = []
     ner_type = ner_type.lower()
-    # read_file_dir = '/storage/zizhong/nanogcg/nanoGCG/data_process/wiki_ner_1027/per/wikiner_per_*'
     if from_file:
-        read_file_dir = '/storage/zizhong/nanogcg/wiki_ner/wiki_ner_1027/' + ner_type + \
+        read_file_dir = './wiki_ner/' + ner_type + \
                         '/wikiner_' + ner_type + '_*'
         filenames = glob(read_file_dir)
         random_index = random.randint(0, len(filenames)-1)
