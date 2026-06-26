@@ -1,5 +1,5 @@
 # TPARAG
-This repository reuses the code from [Atlas](https://github.com/facebookresearch/atlas) but replaces the language model structure in Atlas from encoder-to-decoder to decoder-only, serving as the code base for the anaysis part of paper [Token-Level Precise Attack on RAG: Searching for the Best Alternatives to Mislead Generation](https://aclanthology.org/2024.naacl-short.65.pdf)
+This repository serves as the code base for the anaysis part of paper [Token-Level Precise Attack on RAG: Searching for the Best Alternatives to Mislead Generation](https://aclanthology.org/2024.naacl-short.65.pdf)
 
 The code is mainly divided into two parts: *generation attack* and *optimization attack*. Please run `optimization_attack.py` directly to execute TPARAG.
 Usage:
